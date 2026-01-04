@@ -18,7 +18,7 @@ export default function LoanAgainstPropertyPage() {
                   of your property. LAP is designed to meet the financial needs of
                   someone who already owns a house or multiple properties so as to get
                   the best out of their assets. A loan against property can be taken
-                  as a business loan to grow your business, or to fund your children's
+                  as a business loan to grow your business, or to fund your children&apos;s
                   education, or meet wedding expenses or any other personal expenses.
                   It is loan granted against the mortgage of property. The loan amount
                   ranges from 50% to 75% of the valuation amount. Banks provide LAP for

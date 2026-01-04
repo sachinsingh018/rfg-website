@@ -176,7 +176,7 @@ export default function HomeLoansPage() {
                     </span>
                     {" "}
                     – Your credit report tells the bank about your repayment capacity
-                    and hence determines if you're eligible for a loan.
+                    and hence determines if you&apos;re eligible for a loan.
                   </span>
                 </li>
                 <li className="flex items-start">

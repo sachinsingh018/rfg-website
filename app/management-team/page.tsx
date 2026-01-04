@@ -57,8 +57,8 @@ export default function ManagementTeamPage() {
                     Business Head with Kotak Mahindra Bank, he brought immense
                     experience of building and managing profitable and scalable
                     businesses, innovation, relationship management, business
-                    development & strategic advisory. "Entrepreneurial creativity" and
-                    "Drive for results" truly been drivers of Mr Shambhu Singh
+                    development & strategic advisory. &quot;Entrepreneurial creativity&quot; and
+                    &quot;Drive for results&quot; truly been drivers of Mr Shambhu Singh
                   </p>
                 </div>
                 <div className="mt-4 md:mt-6 space-y-2">

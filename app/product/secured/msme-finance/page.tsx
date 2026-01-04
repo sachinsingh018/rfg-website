@@ -33,13 +33,13 @@ export default function MSMEFinancePage() {
                     cover accounts payable, wages etc. Companies that have high
                     seasonality or cyclical sales cycles usually rely on working capital
                     loans to help with periods of reduced business activity. Working
-                    capital is the cash available to finance a company's short-term
+                    capital is the cash available to finance a company&apos;s short-term
                     operational needs. However, sometimes a company does not have the
                     adequate cash on hand or asset liquidity to cover daily operational
                     expenses. Therefore, working capital loans are simple corporate debt
                     borrowings that are used by a company to finance its daily
                     operations. The immediate benefit of a working capital loan is that
-                    it's quick and lets business owners efficiently cover any gaps in
+                    it&apos;s quick and lets business owners efficiently cover any gaps in
                     working capital expenditures. Some working capital loans are unsecured.
                     If this is the case, it means that a company is not required to put
                     down any collateral to secure the loan. However, only companies or
@@ -108,7 +108,7 @@ export default function MSMEFinancePage() {
               <li className="flex items-start">
                 <CheckCircle className="h-5 w-5 mr-3 mt-0.5 text-accent flex-shrink-0" />
                 <span className="text-muted-foreground">
-                  Interest rate is linked to Bank's base rate for fund based
+                  Interest rate is linked to Bank&apos;s base rate for fund based
                   facility.
                 </span>
               </li>
@@ -164,7 +164,7 @@ export default function MSMEFinancePage() {
               </li>
               <li className="flex items-start">
                 <CheckCircle className="h-5 w-5 mr-3 mt-0.5 text-accent flex-shrink-0" />
-                <span className="text-muted-foreground">Buyer's Credit</span>
+                <span className="text-muted-foreground">Buyer&apos;s Credit</span>
               </li>
               <li className="flex items-start">
                 <CheckCircle className="h-5 w-5 mr-3 mt-0.5 text-accent flex-shrink-0" />
