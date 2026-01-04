@@ -49,7 +49,7 @@ export default function HeroSlider() {
               transition={{ duration: 0.8, delay: 0.4 }}
               className="text-sm sm:text-base md:text-xl text-white/90 mb-5 md:mb-8 leading-relaxed"
             >
-              Empowering your financial dreams with expert loan solutions. Connecting you with India's leading banks for seamless secured and unsecured financing.
+              Empowering your financial dreams with expert loan solutions. Connecting you with India&apos;s leading banks for seamless secured and unsecured financing.
             </motion.p>
           <motion.div
             initial={{ opacity: 0, y: 20 }}

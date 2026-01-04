@@ -72,7 +72,7 @@ export default function Testimonials() {
                     <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-brand-red via-brand-blue to-brand-white opacity-0 group-hover:opacity-100 transition-opacity" />
                     <Quote className="h-6 w-6 text-accent mb-3 relative z-10" />
                     <p className="text-muted-foreground text-sm leading-relaxed mb-3 relative z-10">
-                      "{testimonial.quote}"
+                      &quot;{testimonial.quote}&quot;
                     </p>
                     <div className="flex items-center relative z-10">
                       <div className="w-10 h-10 rounded-full bg-gradient-to-br from-brand-blue/20 via-brand-red/20 to-brand-white/10 flex items-center justify-center mr-3">

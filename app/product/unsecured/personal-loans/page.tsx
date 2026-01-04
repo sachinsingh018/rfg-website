@@ -15,7 +15,7 @@ export default function PersonalLoansPage() {
                 <div className="space-y-3 md:space-y-6 text-sm sm:text-base md:text-base text-muted-foreground leading-relaxed relative z-10">
                   <p>
                     Personal loan is an all-purpose loan for personal use. It could
-                    be for any expenses such as be your child's wedding, going on
+                    be for any expenses such as be your child&apos;s wedding, going on
                     vacation, purchase of consumer durables, medical expenses,
                     buying jewelry, margin/ down-payment for a home loan, transfer of
                     credit card out-standings buying of new furniture and various
@@ -25,7 +25,7 @@ export default function PersonalLoansPage() {
                     security in that they come for a higher rate of interest.
                   </p>
                   <p>
-                    Personal loans are loans provided based on the borrower's past
+                    Personal loans are loans provided based on the borrower&apos;s past
                     credit history and ability to pay. Typically personal loans range
                     from Rs. 0.50 Lakhs to Rs. 30.00 Lakhs with a tenure typically
                     ranging from one to five years.The interest rates of Personal
@@ -138,7 +138,7 @@ export default function PersonalLoansPage() {
                     <p>
                       Personal Loan Lenders levy some fees and charges at the time of
                       loan sanctioning which includes Processing Fees. Prepayment of
-                      the loan is possible after repayment of a minimum of 6 EMI's.
+                      the loan is possible after repayment of a minimum of 6 EMI&apos;s.
                       Foreclosure charges would be applicable as per the banks term and
                       condition. Part pre-payment can be made after 6 months from the
                       Disbursement of the Loan, once in a financial year and the same

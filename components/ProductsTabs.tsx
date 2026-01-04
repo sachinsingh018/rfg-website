@@ -63,7 +63,7 @@ export default function ProductsTabs() {
                 </h3>
                 <p className="text-muted-foreground text-sm sm:text-base md:text-lg leading-relaxed mb-3 md:mb-4">
                   Our secured loan products offer competitive rates and flexible
-                  terms, backed by your valuable assets. Whether you're looking
+                  terms, backed by your valuable assets. Whether you&apos;re looking
                   to finance a property, vehicle, or business expansion, we
                   provide tailored solutions.
                 </p>

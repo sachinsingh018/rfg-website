@@ -158,7 +158,7 @@ export default function BusinessLoanPage() {
                     <p>
                       Business Loan Lenders levy some fees and charges at the time of
                       loan sanctioning which includes Processing Fees. Prepayment of
-                      the loan is possible after repayment of a minimum of 6 EMI's.
+                      the loan is possible after repayment of a minimum of 6 EMI&apos;s.
                       Foreclosure charges would be applicable as per the banks term
                       and condition. Part pre-payment can be made after 6 months from
                       the Disbursement of the Loan, once in a financial year and the
