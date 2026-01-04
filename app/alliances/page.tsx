@@ -14,14 +14,14 @@ export default function AlliancesPage() {
               <div className="relative z-10 text-center">
                 <div className="space-y-3 md:space-y-4 text-sm sm:text-base md:text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto">
                   <p>
-                    We are associated with multiple leading Banks and NBFC's to cater to your
+                    We are associated with multiple leading Banks and NBFC&apos;s to cater to your
                     diverse financial needs, offering the best products and most competitive interest rates in the market.
                   </p>
                   <p>
                     Our strategic partnerships with top-tier financial institutions enable us to provide you with a wide range of loan products including home loans, business loans, personal loans, loan against property, and specialized financing solutions. We work closely with our partner banks to ensure you get access to the most suitable financial products tailored to your specific requirements, along with transparent processes and quick approvals.
                   </p>
                   <p>
-                    Through these alliances, we bring you the combined expertise and resources of India's most trusted financial institutions, ensuring you receive comprehensive financial solutions with the best terms, flexible repayment options, and dedicated support throughout your loan journey.
+                    Through these alliances, we bring you the combined expertise and resources of India&apos;s most trusted financial institutions, ensuring you receive comprehensive financial solutions with the best terms, flexible repayment options, and dedicated support throughout your loan journey.
                   </p>
                 </div>
               </div>

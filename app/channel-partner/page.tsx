@@ -35,7 +35,7 @@ export default function ChannelPartnerPage() {
                   <p>
                     As a partner with Rhomboid Finguru we can assure you for quicker
                     conversion of cases providing you real time updates about your
-                    customer's applications as well as the payment and collections as we
+                    customer&apos;s applications as well as the payment and collections as we
                     have a dedicated Customer Relationship Management Team for
                     managing your all sort of post sales queries and their quicker
                     resolutions. Rhomboid Finguru gives you an opportunity to become

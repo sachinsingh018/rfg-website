@@ -63,9 +63,9 @@ export default function AboutUsPage() {
               </p>
               <p>
                 We deliver services on a client based approach model wherein we
-                begin with understanding the client's requirement. We, then advise
+                begin with understanding the client&apos;s requirement. We, then advise
                 the most suitable loan product in the market at the best rates.
-                We also offer customized lending solutions catering to client's
+                We also offer customized lending solutions catering to client&apos;s
                 specific requirements. The company with its expert loan
                 counselors and a structured customer relationship management team
                 ensures end-to-end services to the clients. We manage the entire
