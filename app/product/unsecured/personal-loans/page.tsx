@@ -34,7 +34,6 @@ export default function PersonalLoansPage() {
                     requires the least bit of paper-work and is usually approved
                     within 48 hours of application submission.
                   </p>
-                  </div>
                 </div>
               </div>
             </section>
@@ -182,6 +181,8 @@ export default function PersonalLoansPage() {
                   Limited Company in the business of manufacturing, trading or
                   services.
                 </p>
+                  </div>
+                </div>
               </div>
             </section>
           </div>
