@@ -359,11 +359,11 @@ export default function Header() {
                         <ChevronDown
                           className={cn(
                             "h-3 w-3 transition-transform",
-                            openDropdown === "secured-mobile" && "rotate-180"
+                            (openDropdown as string) === "secured-mobile" && "rotate-180"
                           )}
                         />
                       </button>
-                      {openDropdown === "secured-mobile" && (
+                      {(openDropdown as string) === "secured-mobile" && (
                         <div className="pl-4 mt-1 space-y-1">
                           <Link
                             href="/product/secured/home-loans"
@@ -431,11 +431,11 @@ export default function Header() {
                         <ChevronDown
                           className={cn(
                             "h-3 w-3 transition-transform",
-                            openDropdown === "unsecured-mobile" && "rotate-180"
+                            (openDropdown as string) === "unsecured-mobile" && "rotate-180"
                           )}
                         />
                       </button>
-                      {openDropdown === "unsecured-mobile" && (
+                      {(openDropdown as string) === "unsecured-mobile" && (
                         <div className="pl-4 mt-1 space-y-1">
                           <Link
                             href="/product/unsecured/business-loan"
