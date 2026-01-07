@@ -11,17 +11,18 @@ export default function HeroSlider() {
     <section className="relative min-h-[500px] md:h-[700px] flex items-center justify-start overflow-hidden">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
-        <div className="absolute inset-0 bg-gradient-to-r from-primary/90 via-primary/80 to-primary/70 z-10" />
+        <Image
+          src="/cover.png"
+          alt="Hero Banner"
+          fill
+          className="object-cover"
+          priority
+          sizes="100vw"
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-primary/55 via-primary/45 to-primary/40 z-10" />
         {/* Subtle brand color patches */}
         <div className="absolute top-0 right-0 w-96 h-96 bg-brand-red/5 rounded-full blur-3xl z-5" />
         <div className="absolute bottom-0 left-0 w-96 h-96 bg-brand-blue/5 rounded-full blur-3xl z-5" />
-        <div
-          className="w-full h-full bg-cover bg-center"
-          style={{
-            backgroundImage:
-              "url('https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1920&q=80')",
-          }}
-        />
       </div>
 
       {/* Content */}

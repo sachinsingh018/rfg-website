@@ -25,7 +25,7 @@ export default function AboutSection() {
             <div className="relative rounded-2xl overflow-hidden shadow-xl">
               <div className="aspect-[4/3] relative bg-gradient-to-br from-brand-blue/10 via-primary/20 to-brand-red/10">
                 <Image
-                  src="/about.png"
+                  src="/about2.jpg"
                   alt="About Us - Financial Advisory Services"
                   fill
                   className="object-cover"

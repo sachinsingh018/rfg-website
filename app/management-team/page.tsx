@@ -37,14 +37,15 @@ export default function ManagementTeamPage() {
       title: "Mrs. Tanuja Singh (Director)",
       image: "/tanuja.png",
       description: [
-        "Mrs. Tanuja is the second promoter director and competent to handle manpower with major responsibility to take care of team management & their development. Leading, mentoring and monitoring the performance of the team to ensure efficiency in process operations. Creating and sustaining a dynamic environment that fosters development opportunity and motivate the high performance among the team members.",
+        "Mrs. Tanuja is a Promoter Director and leads the firm&apos;s Human Resources and People Operations function. She is responsible for end-to-end workforce management, including team structuring, performance oversight, and talent development across the organization.",
+        "She plays a key role in building high-performing teams by setting clear processes, mentoring team members, and closely monitoring operational efficiency. Her focus lies in creating a disciplined yet supportive work environment that encourages professional growth, accountability, and long-term employee engagement. Through consistent leadership and people-centric management, she ensures that the organization&apos;s human capital remains aligned with its business goals.",
       ],
       isDirector: true,
     },
     {
       name: "MANASI PARKAR",
       title: "Senior Relationship & Credit Specialist",
-      image: "/mansi.png",
+      image: "/mansi.jpg",
       description: [
         "Manasi Parkar is an MBA in Finance with over 12 years of hands-on experience in credit assessment, borrower profiling, and high-value relationship management. She brings deep expertise in CIBIL and CMR analysis, enabling accurate risk evaluation and strong lender alignment. Her ability to interpret credit data, understand financial behavior, and anticipate lender expectations has consistently resulted in higher approval ratios and faster turnaround times.",
         "As one of the founding members of Rhomboid Finguru, Manasi has played a pivotal role in shaping the firm's credit philosophy and client-first culture. Having been with the firm since its early days, she has contributed significantly to building our reputation for excellence in credit advisory. She is particularly known for managing high-end and repeat customers, building long-term trust, and acting as a strategic advisor rather than a transactional intermediary. Her experience bridges the gap between complex financial structures and practical borrower needs, consistently delivering successful outcomes for clients across diverse sectors.",
@@ -59,6 +60,7 @@ export default function ManagementTeamPage() {
     {
       name: "NEELAM GUPTA",
       title: "Credit Structuring & Risk Specialist",
+      image: "/neelam.jpg",
       description: [
         "Neelam Gupta is a specialist in credit analysis and proposal structuring, with a sharp eye for financial viability and lender risk frameworks. She excels at dissecting balance sheets, cash flows, and repayment capacity to build proposals that are both bankable and commercially sensible.",
         "With over 8 years of experience in credit structuring, Neelam has been instrumental in developing Rhomboid Finguru's approach to risk assessment and proposal design. Her strength lies in converting complex financial data into clear, well-structured credit notes that resonate with banks and financial institutions. Neelam's contribution directly impacts approval quality, optimal loan structuring, and risk mitigation for both clients and lenders. She has successfully structured over 500+ credit proposals across various sectors, maintaining an impressive conversion rate and helping clients secure financing at competitive terms.",
@@ -68,10 +70,12 @@ export default function ManagementTeamPage() {
         "Structured 500+ successful credit proposals",
         "Maintained 85%+ approval rate on structured proposals",
       ],
+      isDirector: true,
     },
     {
       name: "ROHIT JAISWAR",
       title: "Credit & Product Strategy Expert",
+      image: "/rohit.png",
       description: [
         "Rohit Jaiswar brings strong expertise in credit evaluation, product mapping, and financial solution design. He works closely with clients to understand their exact requirements and aligns them with the most suitable lending products available across banks and NBFCs.",
         "Having been part of Rhomboid Finguru's growth journey for over 6 years, Rohit has developed deep relationships with key lenders and an extensive understanding of product portfolios across the financial services landscape. His role goes beyond credit assessment—Rohit focuses on product finalization, pricing optimization, and structuring solutions that support the client's long-term financial health. His approach ensures that customers receive financing that is not just approved, but sustainable and strategically aligned. He has successfully mapped and delivered solutions for over 300 clients, consistently achieving optimal pricing and terms.",
@@ -81,10 +85,12 @@ export default function ManagementTeamPage() {
         "Delivered 300+ successful product mappings",
         "Achieved average interest rate savings of 1.5-2% for clients",
       ],
+      isDirector: true,
     },
     {
       name: "SAMIR PARAB",
       title: "Structured Retail Loans Lead",
+      image: "/samir.jpg",
       description: [
         "Samir Parab manages the end-to-end lifecycle of structured retail loan products, including housing loans, LAP, and other customized retail solutions. From initial eligibility assessment to documentation, coordination, and final disbursement, he ensures a seamless client experience.",
         "With 7 years of dedicated focus on retail lending at Rhomboid Finguru, Samir has built a reputation for exceptional process control and client service. His execution-driven mindset ensures predictable outcomes and high client satisfaction. With strong process control and lender coordination skills, Samir is instrumental in maintaining speed, accuracy, and compliance across retail portfolios. He has successfully processed over 1,000+ retail loan applications, maintaining an average turnaround time of 15-20 days and a client satisfaction score of 4.8/5.",
@@ -95,6 +101,7 @@ export default function ManagementTeamPage() {
         "Maintained 15-20 day average turnaround time",
         "4.8/5 client satisfaction rating",
       ],
+      isDirector: true,
     },
     {
       name: "HARSHITA SHEDGE",
@@ -231,6 +238,15 @@ export default function ManagementTeamPage() {
     },
   ]
 
+  // Helper function to get initials from name
+  const getInitials = (name: string): string => {
+    const parts = name.trim().split(/\s+/)
+    if (parts.length === 1) {
+      return parts[0].substring(0, 2).toUpperCase()
+    }
+    return (parts[0][0] + parts[parts.length - 1][0]).toUpperCase()
+  }
+
   // Helper function to render director card (with larger, more prominent image)
   const renderDirectorCard = (member: TeamMember) => {
     const hasImage = member.image && member.image !== ""
@@ -252,8 +268,10 @@ export default function ManagementTeamPage() {
               />
             </div>
           ) : (
-            <div className="w-32 h-32 md:w-40 md:h-40 rounded-2xl bg-gradient-to-br from-primary/20 to-accent/20 flex items-center justify-center flex-shrink-0 ring-4 ring-primary/20">
-              <span className="text-6xl">👤</span>
+            <div className="w-32 h-32 md:w-40 md:h-40 rounded-2xl bg-gradient-to-br from-primary via-brand-blue to-accent flex items-center justify-center flex-shrink-0 ring-4 ring-primary/20 shadow-xl">
+              <span className="text-3xl md:text-4xl font-bold text-white">
+                {getInitials(member.name)}
+              </span>
             </div>
           )}
           <div className="flex-1 min-w-0 text-center md:text-left">
@@ -374,8 +392,10 @@ export default function ManagementTeamPage() {
               />
             </div>
           ) : (
-            <div className="w-16 h-16 rounded-full bg-gradient-to-br from-primary/20 to-accent/20 flex items-center justify-center flex-shrink-0">
-              <span className="text-2xl">👤</span>
+            <div className="w-16 h-16 rounded-full bg-gradient-to-br from-primary via-brand-blue to-accent flex items-center justify-center flex-shrink-0 shadow-lg">
+              <span className="text-lg font-bold text-white">
+                {getInitials(member.name)}
+              </span>
             </div>
           )}
           <div className="flex-1 min-w-0">
