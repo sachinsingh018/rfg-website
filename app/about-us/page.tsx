@@ -1,6 +1,7 @@
 "use client"
 
 import Image from "next/image"
+import Link from "next/link"
 import { Mail, Phone, MapPin, Globe, CheckCircle, ChevronLeft, ChevronRight } from "lucide-react"
 import PageHero from "@/components/PageHero"
 import { useState } from "react"
@@ -186,13 +187,44 @@ export default function AboutUsPage() {
 
             {/* Locations Covered */}
             <section className="mb-4 md:mb-8">
-              <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-foreground mb-3 md:mb-4">
-                Locations Covered
-              </h2>
-              <p className="text-sm sm:text-base md:text-base text-muted-foreground leading-relaxed">
-                Mumbai, Ahmedabad, Rajkot, Surat, Baroda, Pune, Nashik, Chennai,
-                Bangalore and Hyderabad
-              </p>
+            <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-foreground mb-3 md:mb-4">
+              Locations Covered
+            </h2>
+            <p className="text-sm sm:text-base md:text-base text-muted-foreground leading-relaxed">
+              We serve clients across{" "}
+              <Link href="/seo/locations/maharashtra" className="text-primary hover:underline">
+                Maharashtra
+              </Link>
+              {" "}(including{" "}
+              <Link href="/seo/locations/mumbai" className="text-primary hover:underline">
+                Mumbai
+              </Link>
+              , Pune, Nashik),{" "}
+              <Link href="/seo/locations/gujarat" className="text-primary hover:underline">
+                Gujarat
+              </Link>
+              {" "}(Ahmedabad, Rajkot, Surat, Baroda),{" "}
+              <Link href="/seo/locations/karnataka" className="text-primary hover:underline">
+                Karnataka
+              </Link>
+              {" "}(Bangalore),{" "}
+              <Link href="/seo/locations/tamil-nadu" className="text-primary hover:underline">
+                Tamil Nadu
+              </Link>
+              {" "}(Chennai),{" "}
+              <Link href="/seo/locations/telangana" className="text-primary hover:underline">
+                Telangana
+              </Link>
+              {" "}(Hyderabad),{" "}
+              <Link href="/seo/locations/andhra-pradesh" className="text-primary hover:underline">
+                Andhra Pradesh
+              </Link>
+              , and{" "}
+              <Link href="/seo/locations/madhya-pradesh" className="text-primary hover:underline">
+                Madhya Pradesh
+              </Link>
+              .
+            </p>
             </section>
 
             {/* Unique Features */}
