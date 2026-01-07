@@ -163,23 +163,23 @@ export default function MumbaiLocationPage() {
 
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-6 mb-8">
               <p>
-                Mumbai, India's financial capital, hosts diverse businesses from BKC's corporate headquarters to Andheri's manufacturing units, Powai's tech parks, and Navi Mumbai's industrial zones. The city's commercial ecosystem requires sophisticated financing solutions that align with varied business models—from hospitality and real estate to pharmaceuticals and logistics.
+                Mumbai, India&apos;s financial capital, hosts diverse businesses from BKC&apos;s corporate headquarters to Andheri&apos;s manufacturing units, Powai&apos;s tech parks, and Navi Mumbai&apos;s industrial zones. The city&apos;s commercial ecosystem requires sophisticated financing solutions that align with varied business models—from hospitality and real estate to pharmaceuticals and logistics.
               </p>
             </div>
 
             <section className="mb-12">
               <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-6">
-                Serving Businesses Across Mumbai's Commercial & Industrial Hubs
+                Serving Businesses Across Mumbai&apos;s Commercial & Industrial Hubs
               </h2>
               <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
                 <p>
-                  Mumbai's business landscape spans multiple commercial and industrial zones, each with distinct financing needs. Bandra Kurla Complex (BKC) hosts corporate headquarters and financial services firms requiring structured financing for expansion and working capital. Nariman Point and Fort remain central business districts where businesses seek property-backed financing and lease rental discounting solutions.
+                  Mumbai&apos;s business landscape spans multiple commercial and industrial zones, each with distinct financing needs. Bandra Kurla Complex (BKC) hosts corporate headquarters and financial services firms requiring structured financing for expansion and working capital. Nariman Point and Fort remain central business districts where businesses seek property-backed financing and lease rental discounting solutions.
                 </p>
                 <p>
                   Lower Parel and Worli have evolved into mixed-use commercial zones where real estate developers, hospitality operators, and corporate offices require construction finance, LAP, and working capital facilities. Andheri East and West, along with MIDC Andheri, house manufacturing units, logistics firms, and export-oriented businesses needing equipment finance, working capital, and export credit facilities.
                 </p>
                 <p>
-                  Powai's technology and pharmaceutical clusters require specialized financing for R&D facilities, equipment, and working capital. Goregaon and Malad host retail, hospitality, and service businesses seeking unsecured business loans and property-backed facilities.
+                  Powai&apos;s technology and pharmaceutical clusters require specialized financing for R&D facilities, equipment, and working capital. Goregaon and Malad host retail, hospitality, and service businesses seeking unsecured business loans and property-backed facilities.
                 </p>
                 <p>
                   Thane and Navi Mumbai, including Vashi and Belapur, have emerged as industrial and commercial hubs where manufacturing, logistics, and real estate businesses require comprehensive financing solutions including project finance, construction finance, and working capital.
@@ -264,7 +264,7 @@ export default function MumbaiLocationPage() {
                   <strong>Documentation Gaps:</strong> Incomplete financial statements, missing GST returns, or outdated KYC documents can delay approvals. We ensure all required documents are current and properly organized.
                 </p>
                 <p>
-                  <strong>Cashflow Mismatch:</strong> Proposals that don't align cashflow projections with repayment schedules often face rejection. We structure proposals with realistic cashflow assumptions and appropriate repayment tenures.
+                  <strong>Cashflow Mismatch:</strong> Proposals that don&apos;t align cashflow projections with repayment schedules often face rejection. We structure proposals with realistic cashflow assumptions and appropriate repayment tenures.
                 </p>
                 <p>
                   <strong>CIBIL Discrepancies:</strong> Errors in credit reports, outdated account status, or mismatched personal details can impact eligibility. We identify and coordinate corrections before submission.
@@ -368,7 +368,7 @@ export default function MumbaiLocationPage() {
               </h2>
               <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
                 <p>
-                  If you're exploring financing options or need advisory support for your business in Mumbai, we can discuss your requirements and how our services might assist. We serve clients across BKC, Andheri, Powai, Thane, Navi Mumbai, and other areas in the city.
+                  If you&apos;re exploring financing options or need advisory support for your business in Mumbai, we can discuss your requirements and how our services might assist. We serve clients across BKC, Andheri, Powai, Thane, Navi Mumbai, and other areas in the city.
                 </p>
                 <p>
                   Contact us to discuss your funding needs, CIBIL rectification requirements, IPO readiness assessment, or stressed asset resolution needs.

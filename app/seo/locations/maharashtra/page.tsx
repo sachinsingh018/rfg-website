@@ -155,7 +155,7 @@ export default function MaharashtraLocationPage() {
 
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-6 mb-8">
               <p>
-                Maharashtra stands as India's economic powerhouse, home to Mumbai's financial district, Pune's industrial base, and Nashik's manufacturing clusters. Businesses across the state—from hospitality and real estate to pharmaceuticals and logistics—require structured financing solutions that align with their operational cycles and growth objectives.
+                Maharashtra stands as India&apos;s economic powerhouse, home to Mumbai&apos;s financial district, Pune&apos;s industrial base, and Nashik&apos;s manufacturing clusters. Businesses across the state—from hospitality and real estate to pharmaceuticals and logistics—require structured financing solutions that align with their operational cycles and growth objectives.
               </p>
             </div>
 
@@ -222,13 +222,13 @@ export default function MaharashtraLocationPage() {
                   <strong>Documentation Gaps:</strong> Incomplete financial statements, missing GST returns, or outdated KYC documents can delay approvals. We ensure all required documents are current and properly organized.
                 </p>
                 <p>
-                  <strong>Cashflow Mismatch:</strong> Proposals that don't align cashflow projections with repayment schedules often face rejection. We structure proposals with realistic cashflow assumptions and appropriate repayment tenures.
+                  <strong>Cashflow Mismatch:</strong> Proposals that don&apos;t align cashflow projections with repayment schedules often face rejection. We structure proposals with realistic cashflow assumptions and appropriate repayment tenures.
                 </p>
                 <p>
                   <strong>CIBIL Discrepancies:</strong> Errors in credit reports, outdated account status, or mismatched personal details can impact eligibility. We identify and coordinate corrections before submission.
                 </p>
                 <p>
-                  <strong>Product Mismatch:</strong> Applying for products that don't match business needs or lender criteria wastes time. We map requirements to appropriate products and lenders.
+                  <strong>Product Mismatch:</strong> Applying for products that don&apos;t match business needs or lender criteria wastes time. We map requirements to appropriate products and lenders.
                 </p>
                 <p>
                   <strong>Regulatory Non-Compliance:</strong> Missing regulatory approvals or non-compliance with sector-specific requirements can halt applications. We ensure regulatory alignment before submission.
@@ -326,7 +326,7 @@ export default function MaharashtraLocationPage() {
               </h2>
               <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
                 <p>
-                  If you're exploring financing options or need advisory support for your business in Maharashtra, we can discuss your requirements and how our services might assist. We serve clients across Mumbai, Pune, Nashik, and other cities in the state.
+                  If you&apos;re exploring financing options or need advisory support for your business in Maharashtra, we can discuss your requirements and how our services might assist. We serve clients across Mumbai, Pune, Nashik, and other cities in the state.
                 </p>
                 <p>
                   Contact us to discuss your funding needs, CIBIL rectification requirements, IPO readiness assessment, or stressed asset resolution needs.
