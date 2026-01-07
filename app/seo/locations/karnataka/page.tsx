@@ -159,7 +159,7 @@ export default function KarnatakaLocationPage() {
 
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-6 mb-8">
               <p>
-                Karnataka's business ecosystem spans Bengaluru's technology and startup hub, Hubli's manufacturing base, Mangaluru's port and trading activities, and Mysuru's heritage and industrial sectors. The state hosts diverse industries from IT services and pharmaceuticals to textiles and agro processing, each requiring structured financing solutions aligned with their operational models and growth objectives.
+                Karnataka&apos;s business ecosystem spans Bengaluru&apos;s technology and startup hub, Hubli&apos;s manufacturing base, Mangaluru&apos;s port and trading activities, and Mysuru&apos;s heritage and industrial sectors. The state hosts diverse industries from IT services and pharmaceuticals to textiles and agro processing, each requiring structured financing solutions aligned with their operational models and growth objectives.
               </p>
             </div>
 
@@ -229,7 +229,7 @@ export default function KarnatakaLocationPage() {
                   <strong>Documentation Gaps:</strong> Incomplete financial statements, missing GST returns, or outdated KYC documents can delay approvals. For technology companies, missing investor documentation or technology licenses can impact applications. We ensure all required documents are current and properly organized.
                 </p>
                 <p>
-                  <strong>Cashflow Mismatch:</strong> Proposals that don't align cashflow projections with repayment schedules often face rejection. For businesses with seasonal cycles or project-based revenue, cashflow structuring requires understanding business models. We structure proposals with realistic cashflow assumptions and appropriate repayment tenures.
+                  <strong>Cashflow Mismatch:</strong> Proposals that don&apos;t align cashflow projections with repayment schedules often face rejection. For businesses with seasonal cycles or project-based revenue, cashflow structuring requires understanding business models. We structure proposals with realistic cashflow assumptions and appropriate repayment tenures.
                 </p>
                 <p>
                   <strong>CIBIL Discrepancies:</strong> Errors in credit reports, outdated account status, or mismatched personal details can impact eligibility. We identify and coordinate corrections before submission.
@@ -333,7 +333,7 @@ export default function KarnatakaLocationPage() {
               </h2>
               <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
                 <p>
-                  If you're exploring financing options or need advisory support for your business in Karnataka, we can discuss your requirements and how our services might assist. We serve clients across Bengaluru, Hubli, Mangaluru, Mysuru, and other cities in the state.
+                  If you&apos;re exploring financing options or need advisory support for your business in Karnataka, we can discuss your requirements and how our services might assist. We serve clients across Bengaluru, Hubli, Mangaluru, Mysuru, and other cities in the state.
                 </p>
                 <p>
                   Contact us to discuss your funding needs, CIBIL rectification requirements, IPO readiness assessment, or stressed asset resolution needs.

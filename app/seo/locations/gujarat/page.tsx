@@ -158,7 +158,7 @@ export default function GujaratLocationPage() {
 
             <div className="prose prose-lg max-w-none text-muted-foreground space-y-6 mb-8">
               <p>
-                Gujarat's industrial landscape spans Ahmedabad's manufacturing base, Surat's diamond and textile industries, Vadodara's petrochemical and pharmaceutical clusters, and Rajkot's engineering and auto components sector. Businesses across the state require structured financing solutions that align with their operational cycles, export requirements, and growth objectives.
+                Gujarat&apos;s industrial landscape spans Ahmedabad&apos;s manufacturing base, Surat&apos;s diamond and textile industries, Vadodara&apos;s petrochemical and pharmaceutical clusters, and Rajkot&apos;s engineering and auto components sector. Businesses across the state require structured financing solutions that align with their operational cycles, export requirements, and growth objectives.
               </p>
             </div>
 
@@ -228,7 +228,7 @@ export default function GujaratLocationPage() {
                   <strong>Documentation Gaps:</strong> Incomplete financial statements, missing GST returns, or outdated KYC documents can delay approvals. For export-oriented businesses, missing export documentation or trade history can impact export credit facilities. We ensure all required documents are current and properly organized.
                 </p>
                 <p>
-                  <strong>Cashflow Mismatch:</strong> Proposals that don't align cashflow projections with repayment schedules often face rejection. For businesses with seasonal cycles or export payment terms, cashflow structuring requires understanding business cycles. We structure proposals with realistic cashflow assumptions and appropriate repayment tenures.
+                  <strong>Cashflow Mismatch:</strong> Proposals that don&apos;t align cashflow projections with repayment schedules often face rejection. For businesses with seasonal cycles or export payment terms, cashflow structuring requires understanding business cycles. We structure proposals with realistic cashflow assumptions and appropriate repayment tenures.
                 </p>
                 <p>
                   <strong>CIBIL Discrepancies:</strong> Errors in credit reports, outdated account status, or mismatched personal details can impact eligibility. We identify and coordinate corrections before submission.
@@ -323,7 +323,7 @@ export default function GujaratLocationPage() {
               </h2>
               <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
                 <p>
-                  If you're exploring financing options or need advisory support for your business in Gujarat, we can discuss your requirements and how our services might assist. We serve clients across Ahmedabad, Surat, Vadodara, Rajkot, and other cities in the state.
+                  If you&apos;re exploring financing options or need advisory support for your business in Gujarat, we can discuss your requirements and how our services might assist. We serve clients across Ahmedabad, Surat, Vadodara, Rajkot, and other cities in the state.
                 </p>
                 <p>
                   Contact us to discuss your funding needs, CIBIL rectification requirements, export finance coordination, or stressed asset resolution needs.
