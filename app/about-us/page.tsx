@@ -23,66 +23,74 @@ export default function AboutUsPage() {
           <div className="max-w-4xl mx-auto">
             {/* About the Company */}
             <section className="mb-4 md:mb-8">
-              <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-foreground mb-3 md:mb-4">
-                About the Company
-              </h2>
-              <div className="space-y-3 md:space-y-4 text-sm sm:text-base md:text-base text-muted-foreground leading-relaxed">
-                <p>
-                  The Company was Incorporated on 6th June 2017, and is engaged –
-                  in providing consultancy and syndication services for various
-                  types of loans/ advances or financial needs ensuring setting up
-                  the desired financial partnerships with leading Indian Public &
-                  Private Sector Banks and Financial Institutions. The company
-                  is a one stop shop for all financial needs, including
-                  construction finance, NPA/Stressed asset resolutions, Finance
-                  for SMEs including working capital, Project Loans, Loan Against
-                  Property, LRDs, Loans covered under CGTMSE etc. The Company has
-                  established tie ups with leading Banks and financial institutions
-                  in Maharashtra, Gujarat, Tamil Nadu, Karnataka Madhya Pradesh
-                  etc. The company is ambitious to grow further and intends to
-                  expand its operation in other metros and tier one cities.
-                </p>
-                <p>
-                  We are a group of bankers, experts in structuring deals as per
-                  the financial needs of our clients, coupled and substantiated
-                  with cash flows of the client. We are competent in taking
-                  immediate decision on the do-ability of the proposals at the
-                  initial stage itself and are providing end to end solution with
-                  fast deal conversions. We also provide financial advisory for
-                  Stressed Assets and for High Risk Business segments. We cater to
-                  mid segment clients who are in need of financial assistance for
-                  growth and expansion of their business. We have special expertise
-                  in financing specific industries such as Hotels / Hospitality &
-                  Resorts, Educational Institutions, Real Estate, Agro Processing,
-                  Agri traders and Adatiyas, Agri export import, Pharmaceutical
-                  Industries, Logistics (incl. transportation and warehousing),
-                  infrastructure (EPC Segment) etc. We have specialized team to take
-                  care of stress/ NPA accounts which envisages providing end to end
-                  services incl. defending Litigations in Court of Law. enabling
-                  borrowers to come out of financial crisis and revival of
-                  businesses.
-                </p>
-                <p>
-                  We deliver services on a client based approach model wherein we
-                  begin with understanding the client&apos;s requirement. We, then advise
-                  the most suitable loan product in the market at the best rates.
-                  We also offer customized lending solutions catering to client&apos;s
-                  specific requirements. The company with its expert loan
-                  counselors and a structured customer relationship management team
-                  ensures end-to-end services to the clients. We manage the entire
-                  borrowing process on behalf of the client that includes choosing
-                  the right product from the appropriate lending organization,
-                  managing documentation, advising on professional issues and
-                  assisting the client till the entire loan is disbursed.
-                </p>
-                <p>
-                  As an equal service opportunity provider the company has the
-                  required professionals to cater to the needs of the customer.
-                  With the positive growth mindset outlook, Rhomboid has already
-                  started to strengthen its managerial level with more quality
-                  conscious people and widen the executive rung with more talented
-                  professionals.
-                </p>
+              <div className="relative bg-gradient-to-br from-primary/5 via-background to-accent/5 rounded-2xl p-4 md:p-6 lg:p-8 shadow-lg border border-border/50 overflow-hidden">
+                <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-brand-red via-brand-blue to-brand-white" />
+                <div className="relative z-10">
+                  <div className="flex items-center mb-4 md:mb-6">
+                    <div className="w-1 h-6 md:h-8 bg-gradient-to-b from-brand-red to-brand-blue rounded-full mr-3 md:mr-4" />
+                    <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-foreground">
+                      About the Company
+                    </h2>
+                  </div>
+                  <div className="space-y-3 md:space-y-4 text-sm sm:text-base md:text-base text-muted-foreground leading-relaxed">
+                    <p>
+                      The Company was Incorporated on 6th June 2017, and is engaged –
+                      in providing consultancy and syndication services for various
+                      types of loans/ advances or financial needs ensuring setting up
+                      the desired financial partnerships with leading Indian Public &
+                      Private Sector Banks and Financial Institutions. The company
+                      is a one stop shop for all financial needs, including
+                      construction finance, NPA/Stressed asset resolutions, Finance
+                      for SMEs including working capital, Project Loans, Loan Against
+                      Property, LRDs, Loans covered under CGTMSE etc. The Company has
+                      established tie ups with leading Banks and financial institutions
+                      in Maharashtra, Gujarat, Tamil Nadu, Karnataka Madhya Pradesh
+                      etc. The company is ambitious to grow further and intends to
+                      expand its operation in other metros and tier one cities.
+                    </p>
+                    <p>
+                      We are a group of bankers, experts in structuring deals as per
+                      the financial needs of our clients, coupled and substantiated
+                      with cash flows of the client. We are competent in taking
+                      immediate decision on the do-ability of the proposals at the
+                      initial stage itself and are providing end to end solution with
+                      fast deal conversions. We also provide financial advisory for
+                      Stressed Assets and for High Risk Business segments. We cater to
+                      mid segment clients who are in need of financial assistance for
+                      growth and expansion of their business. We have special expertise
+                      in financing specific industries such as Hotels / Hospitality &
+                      Resorts, Educational Institutions, Real Estate, Agro Processing,
+                      Agri traders and Adatiyas, Agri export import, Pharmaceutical
+                      Industries, Logistics (incl. transportation and warehousing),
+                      infrastructure (EPC Segment) etc. We have specialized team to take
+                      care of stress/ NPA accounts which envisages providing end to end
+                      services incl. defending Litigations in Court of Law. enabling
+                      borrowers to come out of financial crisis and revival of
+                      businesses.
+                    </p>
+                    <p>
+                      We deliver services on a client based approach model wherein we
+                      begin with understanding the client&apos;s requirement. We, then advise
+                      the most suitable loan product in the market at the best rates.
+                      We also offer customized lending solutions catering to client&apos;s
+                      specific requirements. The company with its expert loan
+                      counselors and a structured customer relationship management team
+                      ensures end-to-end services to the clients. We manage the entire
+                      borrowing process on behalf of the client that includes choosing
+                      the right product from the appropriate lending organization,
+                      managing documentation, advising on professional issues and
+                      assisting the client till the entire loan is disbursed.
+                    </p>
+                    <p>
+                      As an equal service opportunity provider the company has the
+                      required professionals to cater to the needs of the customer.
+                      With the positive growth mindset outlook, Rhomboid has already
+                      started to strengthen its managerial level with more quality
+                      conscious people and widen the executive rung with more talented
+                      professionals.
+                    </p>
+                  </div>
+                </div>
               </div>
             </section>
           </div>
@@ -169,105 +177,316 @@ export default function AboutUsPage() {
           <div className="max-w-4xl mx-auto">
             {/* Contact Information */}
             <section className="mb-4 md:mb-8">
-              <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-foreground mb-3 md:mb-4">
-                Contact Us
-              </h2>
-              <div className="space-y-4">
-                <div className="flex items-start">
-                  <Mail className="h-5 w-5 mr-3 mt-0.5 text-primary flex-shrink-0" />
-                  <a
-                    href="mailto:info@rhomboidfinguru.com"
-                    className="text-muted-foreground hover:text-primary transition-colors"
-                  >
-                    info@rhomboidfinguru.com
-                  </a>
+              <div className="relative bg-gradient-to-br from-primary/5 via-background to-accent/5 rounded-2xl p-4 md:p-6 lg:p-8 shadow-lg border border-border/50 overflow-hidden">
+                <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-brand-blue via-brand-red to-brand-white" />
+                <div className="relative z-10">
+                  <div className="flex items-center mb-4 md:mb-6">
+                    <div className="w-1 h-6 md:h-8 bg-gradient-to-b from-brand-blue to-brand-red rounded-full mr-3 md:mr-4" />
+                    <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-foreground">
+                      Contact Us
+                    </h2>
+                  </div>
+                  <div className="space-y-4">
+                    <div className="flex items-start">
+                      <Mail className="h-5 w-5 mr-3 mt-0.5 text-primary flex-shrink-0" />
+                      <a
+                        href="mailto:info@rhomboidfinguru.com"
+                        className="text-sm sm:text-base md:text-base text-muted-foreground hover:text-primary transition-colors"
+                      >
+                        info@rhomboidfinguru.com
+                      </a>
+                    </div>
+                  </div>
                 </div>
               </div>
             </section>
 
             {/* Locations Covered */}
             <section className="mb-4 md:mb-8">
-            <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-foreground mb-3 md:mb-4">
-              Locations Covered
-            </h2>
-            <p className="text-sm sm:text-base md:text-base text-muted-foreground leading-relaxed">
-              We serve clients across{" "}
-              <Link href="/seo/locations/maharashtra" className="text-primary hover:underline">
-                Maharashtra
-              </Link>
-              {" "}(including{" "}
-              <Link href="/seo/locations/mumbai" className="text-primary hover:underline">
-                Mumbai
-              </Link>
-              , Pune, Nashik),{" "}
-              <Link href="/seo/locations/gujarat" className="text-primary hover:underline">
-                Gujarat
-              </Link>
-              {" "}(Ahmedabad, Rajkot, Surat, Baroda),{" "}
-              <Link href="/seo/locations/karnataka" className="text-primary hover:underline">
-                Karnataka
-              </Link>
-              {" "}(Bangalore),{" "}
-              <Link href="/seo/locations/tamil-nadu" className="text-primary hover:underline">
-                Tamil Nadu
-              </Link>
-              {" "}(Chennai),{" "}
-              <Link href="/seo/locations/telangana" className="text-primary hover:underline">
-                Telangana
-              </Link>
-              {" "}(Hyderabad),{" "}
-              <Link href="/seo/locations/andhra-pradesh" className="text-primary hover:underline">
-                Andhra Pradesh
-              </Link>
-              , and{" "}
-              <Link href="/seo/locations/madhya-pradesh" className="text-primary hover:underline">
-                Madhya Pradesh
-              </Link>
-              .
-            </p>
+              <div className="relative bg-gradient-to-br from-primary/5 via-background to-accent/5 rounded-2xl p-4 md:p-6 lg:p-8 shadow-lg border border-border/50 overflow-hidden">
+                <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-brand-red via-brand-blue to-brand-white" />
+                <div className="relative z-10">
+                  <div className="flex items-center mb-4 md:mb-6">
+                    <div className="w-1 h-6 md:h-8 bg-gradient-to-b from-brand-red to-brand-blue rounded-full mr-3 md:mr-4" />
+                    <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-foreground">
+                      Locations Covered
+                    </h2>
+                  </div>
+                  <p className="text-sm sm:text-base md:text-base text-muted-foreground leading-relaxed mb-6">
+                    We serve clients across multiple states and cities in India, providing comprehensive financial advisory and loan consultancy services.
+                  </p>
+
+                  {/* Location Cards Grid */}
+                  <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 md:gap-6">
+                    {/* Maharashtra */}
+                    <Link
+                      href="/states/maharashtra"
+                      className="group relative overflow-hidden rounded-xl bg-gradient-to-br from-primary/10 to-accent/10 border-2 border-border hover:border-primary/50 transition-all duration-300 hover:shadow-lg"
+                    >
+                      <div className="aspect-[4/3] relative">
+                        <Image
+                          src="/maharasthra.jpg"
+                          alt="Maharashtra"
+                          fill
+                          className="object-cover group-hover:scale-105 transition-transform duration-300"
+                          sizes="(max-width: 640px) 50vw, (max-width: 768px) 33vw, 25vw"
+                          onError={(e) => {
+                            const target = e.target as HTMLImageElement
+                            target.style.display = 'none'
+                          }}
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-br from-brand-red/10 via-brand-blue/10 to-accent/10 group-hover:from-brand-red/20 group-hover:via-brand-blue/20 group-hover:to-accent/20 transition-all" />
+                      </div>
+                      <div className="p-3 md:p-4 bg-background/80 backdrop-blur-sm">
+                        <h3 className="font-semibold text-sm md:text-base text-foreground group-hover:text-primary transition-colors">
+                          Maharashtra
+                        </h3>
+                        <p className="text-xs text-muted-foreground mt-1">Mumbai, Pune, Nashik</p>
+                      </div>
+                    </Link>
+
+                    {/* Mumbai */}
+                    <Link
+                      href="/states/mumbai"
+                      className="group relative overflow-hidden rounded-xl bg-gradient-to-br from-primary/10 to-accent/10 border-2 border-border hover:border-primary/50 transition-all duration-300 hover:shadow-lg"
+                    >
+                      <div className="aspect-[4/3] relative">
+                        <Image
+                          src="/mumbai.jpg"
+                          alt="Mumbai"
+                          fill
+                          className="object-cover group-hover:scale-105 transition-transform duration-300"
+                          sizes="(max-width: 640px) 50vw, (max-width: 768px) 33vw, 25vw"
+                          onError={(e) => {
+                            const target = e.target as HTMLImageElement
+                            target.style.display = 'none'
+                          }}
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-br from-brand-blue/10 via-brand-red/10 to-accent/10 group-hover:from-brand-blue/20 group-hover:via-brand-red/20 group-hover:to-accent/20 transition-all" />
+                      </div>
+                      <div className="p-3 md:p-4 bg-background/80 backdrop-blur-sm">
+                        <h3 className="font-semibold text-sm md:text-base text-foreground group-hover:text-primary transition-colors">
+                          Mumbai
+                        </h3>
+                        <p className="text-xs text-muted-foreground mt-1">Financial Capital</p>
+                      </div>
+                    </Link>
+
+                    {/* Gujarat */}
+                    <Link
+                      href="/states/gujarat"
+                      className="group relative overflow-hidden rounded-xl bg-gradient-to-br from-primary/10 to-accent/10 border-2 border-border hover:border-primary/50 transition-all duration-300 hover:shadow-lg"
+                    >
+                      <div className="aspect-[4/3] relative">
+                        <Image
+                          src="/ahmedabad.jpg"
+                          alt="Gujarat"
+                          fill
+                          className="object-cover group-hover:scale-105 transition-transform duration-300"
+                          sizes="(max-width: 640px) 50vw, (max-width: 768px) 33vw, 25vw"
+                          onError={(e) => {
+                            const target = e.target as HTMLImageElement
+                            target.style.display = 'none'
+                          }}
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-br from-accent/10 via-brand-red/10 to-brand-blue/10 group-hover:from-accent/20 group-hover:via-brand-red/20 group-hover:to-brand-blue/20 transition-all" />
+                      </div>
+                      <div className="p-3 md:p-4 bg-background/80 backdrop-blur-sm">
+                        <h3 className="font-semibold text-sm md:text-base text-foreground group-hover:text-primary transition-colors">
+                          Gujarat
+                        </h3>
+                        <p className="text-xs text-muted-foreground mt-1">Ahmedabad, Surat, Rajkot</p>
+                      </div>
+                    </Link>
+
+                    {/* Karnataka */}
+                    <Link
+                      href="/states/karnataka"
+                      className="group relative overflow-hidden rounded-xl bg-gradient-to-br from-primary/10 to-accent/10 border-2 border-border hover:border-primary/50 transition-all duration-300 hover:shadow-lg"
+                    >
+                      <div className="aspect-[4/3] relative">
+                        <Image
+                          src="/karnatake.jpg"
+                          alt="Karnataka"
+                          fill
+                          className="object-cover group-hover:scale-105 transition-transform duration-300"
+                          sizes="(max-width: 640px) 50vw, (max-width: 768px) 33vw, 25vw"
+                          onError={(e) => {
+                            const target = e.target as HTMLImageElement
+                            target.style.display = 'none'
+                          }}
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-br from-brand-blue/10 via-accent/10 to-brand-red/10 group-hover:from-brand-blue/20 group-hover:via-accent/20 group-hover:to-brand-red/20 transition-all" />
+                      </div>
+                      <div className="p-3 md:p-4 bg-background/80 backdrop-blur-sm">
+                        <h3 className="font-semibold text-sm md:text-base text-foreground group-hover:text-primary transition-colors">
+                          Karnataka
+                        </h3>
+                        <p className="text-xs text-muted-foreground mt-1">Bengaluru, Hubli</p>
+                      </div>
+                    </Link>
+
+                    {/* Tamil Nadu */}
+                    <Link
+                      href="/states/tamil-nadu"
+                      className="group relative overflow-hidden rounded-xl bg-gradient-to-br from-primary/10 to-accent/10 border-2 border-border hover:border-primary/50 transition-all duration-300 hover:shadow-lg"
+                    >
+                      <div className="aspect-[4/3] relative">
+                        <Image
+                          src="/tamilnade.jfif"
+                          alt="Tamil Nadu"
+                          fill
+                          className="object-cover group-hover:scale-105 transition-transform duration-300"
+                          sizes="(max-width: 640px) 50vw, (max-width: 768px) 33vw, 25vw"
+                          onError={(e) => {
+                            const target = e.target as HTMLImageElement
+                            target.style.display = 'none'
+                          }}
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-br from-brand-red/10 via-accent/10 to-brand-blue/10 group-hover:from-brand-red/20 group-hover:via-accent/20 group-hover:to-brand-blue/20 transition-all" />
+                      </div>
+                      <div className="p-3 md:p-4 bg-background/80 backdrop-blur-sm">
+                        <h3 className="font-semibold text-sm md:text-base text-foreground group-hover:text-primary transition-colors">
+                          Tamil Nadu
+                        </h3>
+                        <p className="text-xs text-muted-foreground mt-1">Chennai, Coimbatore</p>
+                      </div>
+                    </Link>
+
+                    {/* Telangana */}
+                    <Link
+                      href="/states/telangana"
+                      className="group relative overflow-hidden rounded-xl bg-gradient-to-br from-primary/10 to-accent/10 border-2 border-border hover:border-primary/50 transition-all duration-300 hover:shadow-lg"
+                    >
+                      <div className="aspect-[4/3] relative">
+                        <Image
+                          src="/hyderabad.jpg"
+                          alt="Telangana"
+                          fill
+                          className="object-cover group-hover:scale-105 transition-transform duration-300"
+                          sizes="(max-width: 640px) 50vw, (max-width: 768px) 33vw, 25vw"
+                          onError={(e) => {
+                            const target = e.target as HTMLImageElement
+                            target.style.display = 'none'
+                          }}
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-br from-accent/10 via-brand-blue/10 to-brand-red/10 group-hover:from-accent/20 group-hover:via-brand-blue/20 group-hover:to-brand-red/20 transition-all" />
+                      </div>
+                      <div className="p-3 md:p-4 bg-background/80 backdrop-blur-sm">
+                        <h3 className="font-semibold text-sm md:text-base text-foreground group-hover:text-primary transition-colors">
+                          Telangana
+                        </h3>
+                        <p className="text-xs text-muted-foreground mt-1">Hyderabad</p>
+                      </div>
+                    </Link>
+
+                    {/* Andhra Pradesh */}
+                    <Link
+                      href="/states/andhra-pradesh"
+                      className="group relative overflow-hidden rounded-xl bg-gradient-to-br from-primary/10 to-accent/10 border-2 border-border hover:border-primary/50 transition-all duration-300 hover:shadow-lg"
+                    >
+                      <div className="aspect-[4/3] relative">
+                        <Image
+                          src="/andhra.jfif"
+                          alt="Andhra Pradesh"
+                          fill
+                          className="object-cover group-hover:scale-105 transition-transform duration-300"
+                          sizes="(max-width: 640px) 50vw, (max-width: 768px) 33vw, 25vw"
+                          onError={(e) => {
+                            const target = e.target as HTMLImageElement
+                            target.style.display = 'none'
+                          }}
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-br from-brand-blue/10 via-brand-red/10 to-accent/10 group-hover:from-brand-blue/20 group-hover:via-brand-red/20 group-hover:to-accent/20 transition-all" />
+                      </div>
+                      <div className="p-3 md:p-4 bg-background/80 backdrop-blur-sm">
+                        <h3 className="font-semibold text-sm md:text-base text-foreground group-hover:text-primary transition-colors">
+                          Andhra Pradesh
+                        </h3>
+                        <p className="text-xs text-muted-foreground mt-1">Visakhapatnam, Vijayawada</p>
+                      </div>
+                    </Link>
+
+                    {/* Madhya Pradesh */}
+                    <Link
+                      href="/states/madhya-pradesh"
+                      className="group relative overflow-hidden rounded-xl bg-gradient-to-br from-primary/10 to-accent/10 border-2 border-border hover:border-primary/50 transition-all duration-300 hover:shadow-lg"
+                    >
+                      <div className="aspect-[4/3] relative">
+                        <Image
+                          src="/mp.jpg"
+                          alt="Madhya Pradesh"
+                          fill
+                          className="object-cover group-hover:scale-105 transition-transform duration-300"
+                          sizes="(max-width: 640px) 50vw, (max-width: 768px) 33vw, 25vw"
+                          onError={(e) => {
+                            const target = e.target as HTMLImageElement
+                            target.style.display = 'none'
+                          }}
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-br from-brand-red/10 via-brand-blue/10 to-accent/10 group-hover:from-brand-red/20 group-hover:via-brand-blue/20 group-hover:to-accent/20 transition-all" />
+                      </div>
+                      <div className="p-3 md:p-4 bg-background/80 backdrop-blur-sm">
+                        <h3 className="font-semibold text-sm md:text-base text-foreground group-hover:text-primary transition-colors">
+                          Madhya Pradesh
+                        </h3>
+                        <p className="text-xs text-muted-foreground mt-1">Indore, Bhopal</p>
+                      </div>
+                    </Link>
+                  </div>
+                </div>
+              </div>
             </section>
 
             {/* Unique Features */}
             <section className="mb-4 md:mb-8">
-              <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-foreground mb-3 md:mb-4">
-                Unique Features and Core Competencies of Rhomboid Finguru Pvt. Ltd
-              </h2>
-              <ul className="space-y-2 md:space-y-3">
-                <li className="flex items-start">
-                  <CheckCircle className="h-4 w-4 md:h-5 md:w-5 mr-2 md:mr-3 mt-0.5 text-accent flex-shrink-0" />
-                  <span className="text-sm sm:text-base md:text-base text-muted-foreground">Conference Call Decision Making</span>
-                </li>
-                <li className="flex items-start">
-                  <CheckCircle className="h-4 w-4 md:h-5 md:w-5 mr-2 md:mr-3 mt-0.5 text-accent flex-shrink-0" />
-                  <span className="text-sm sm:text-base md:text-base text-muted-foreground">CIBIL Generation</span>
-                </li>
-                <li className="flex items-start">
-                  <CheckCircle className="h-4 w-4 md:h-5 md:w-5 mr-2 md:mr-3 mt-0.5 text-accent flex-shrink-0" />
-                  <span className="text-sm sm:text-base md:text-base text-muted-foreground">CIBIL Data Rectification</span>
-                </li>
-                <li className="flex items-start">
-                  <CheckCircle className="h-4 w-4 md:h-5 md:w-5 mr-2 md:mr-3 mt-0.5 text-accent flex-shrink-0" />
-                  <span className="text-sm sm:text-base md:text-base text-muted-foreground">Experienced Staff</span>
-                </li>
-                <li className="flex items-start">
-                  <CheckCircle className="h-4 w-4 md:h-5 md:w-5 mr-2 md:mr-3 mt-0.5 text-accent flex-shrink-0" />
-                  <span className="text-sm sm:text-base md:text-base text-muted-foreground">
-                    PAN India connectivity with Banks, FIs and Referral Points
-                  </span>
-                </li>
-                <li className="flex items-start">
-                  <CheckCircle className="h-4 w-4 md:h-5 md:w-5 mr-2 md:mr-3 mt-0.5 text-accent flex-shrink-0" />
-                  <span className="text-sm sm:text-base md:text-base text-muted-foreground">
-                    One stop for all Financial Guidance and Debt Structuring
-                  </span>
-                </li>
-                <li className="flex items-start">
-                  <CheckCircle className="h-4 w-4 md:h-5 md:w-5 mr-2 md:mr-3 mt-0.5 text-accent flex-shrink-0" />
-                  <span className="text-sm sm:text-base md:text-base text-muted-foreground">
-                    End to End solutions for Stressed Accounts
-                  </span>
-                </li>
-              </ul>
+              <div className="relative bg-gradient-to-br from-accent/5 via-background to-primary/5 rounded-2xl p-4 md:p-6 lg:p-8 shadow-lg border border-border/50 overflow-hidden">
+                <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-brand-blue via-brand-red to-brand-white" />
+                <div className="relative z-10">
+                  <div className="flex items-center mb-4 md:mb-6">
+                    <div className="w-1 h-6 md:h-8 bg-gradient-to-b from-brand-blue to-brand-red rounded-full mr-3 md:mr-4" />
+                    <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-foreground">
+                      Unique Features and Core Competencies of Rhomboid Finguru Pvt. Ltd
+                    </h2>
+                  </div>
+                  <ul className="space-y-2 md:space-y-3">
+                    <li className="flex items-start">
+                      <CheckCircle className="h-4 w-4 md:h-5 md:w-5 mr-2 md:mr-3 mt-0.5 text-accent flex-shrink-0" />
+                      <span className="text-sm sm:text-base md:text-base text-muted-foreground">Conference Call Decision Making</span>
+                    </li>
+                    <li className="flex items-start">
+                      <CheckCircle className="h-4 w-4 md:h-5 md:w-5 mr-2 md:mr-3 mt-0.5 text-accent flex-shrink-0" />
+                      <span className="text-sm sm:text-base md:text-base text-muted-foreground">CIBIL Generation</span>
+                    </li>
+                    <li className="flex items-start">
+                      <CheckCircle className="h-4 w-4 md:h-5 md:w-5 mr-2 md:mr-3 mt-0.5 text-accent flex-shrink-0" />
+                      <span className="text-sm sm:text-base md:text-base text-muted-foreground">CIBIL Data Rectification</span>
+                    </li>
+                    <li className="flex items-start">
+                      <CheckCircle className="h-4 w-4 md:h-5 md:w-5 mr-2 md:mr-3 mt-0.5 text-accent flex-shrink-0" />
+                      <span className="text-sm sm:text-base md:text-base text-muted-foreground">Experienced Staff</span>
+                    </li>
+                    <li className="flex items-start">
+                      <CheckCircle className="h-4 w-4 md:h-5 md:w-5 mr-2 md:mr-3 mt-0.5 text-accent flex-shrink-0" />
+                      <span className="text-sm sm:text-base md:text-base text-muted-foreground">
+                        PAN India connectivity with Banks, FIs and Referral Points
+                      </span>
+                    </li>
+                    <li className="flex items-start">
+                      <CheckCircle className="h-4 w-4 md:h-5 md:w-5 mr-2 md:mr-3 mt-0.5 text-accent flex-shrink-0" />
+                      <span className="text-sm sm:text-base md:text-base text-muted-foreground">
+                        One stop for all Financial Guidance and Debt Structuring
+                      </span>
+                    </li>
+                    <li className="flex items-start">
+                      <CheckCircle className="h-4 w-4 md:h-5 md:w-5 mr-2 md:mr-3 mt-0.5 text-accent flex-shrink-0" />
+                      <span className="text-sm sm:text-base md:text-base text-muted-foreground">
+                        End to End solutions for Stressed Accounts
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </section>
           </div>
         </div>

@@ -114,60 +114,6 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Regional Services - Subtle Links for SEO */}
-          <div className="flex-1 hidden lg:block">
-            <h3 className="text-2xl font-bold mb-4">Regional Services</h3>
-            <div className="space-y-2 text-sm">
-              <Link
-                href="/seo/locations/maharashtra"
-                className="block text-primary-foreground/70 hover:text-accent transition-colors"
-              >
-                Financial Services in Maharashtra
-              </Link>
-              <Link
-                href="/seo/locations/mumbai"
-                className="block text-primary-foreground/70 hover:text-accent transition-colors"
-              >
-                Financial Services in Mumbai
-              </Link>
-              <Link
-                href="/seo/locations/gujarat"
-                className="block text-primary-foreground/70 hover:text-accent transition-colors"
-              >
-                Financial Services in Gujarat
-              </Link>
-              <Link
-                href="/seo/locations/karnataka"
-                className="block text-primary-foreground/70 hover:text-accent transition-colors"
-              >
-                Financial Services in Karnataka
-              </Link>
-              <Link
-                href="/seo/locations/tamil-nadu"
-                className="block text-primary-foreground/70 hover:text-accent transition-colors"
-              >
-                Financial Services in Tamil Nadu
-              </Link>
-              <Link
-                href="/seo/locations/telangana"
-                className="block text-primary-foreground/70 hover:text-accent transition-colors"
-              >
-                Financial Services in Telangana
-              </Link>
-              <Link
-                href="/seo/locations/andhra-pradesh"
-                className="block text-primary-foreground/70 hover:text-accent transition-colors"
-              >
-                Financial Services in Andhra Pradesh
-              </Link>
-              <Link
-                href="/seo/locations/madhya-pradesh"
-                className="block text-primary-foreground/70 hover:text-accent transition-colors"
-              >
-                Financial Services in Madhya Pradesh
-              </Link>
-            </div>
-          </div>
         </div>
 
         {/* Logo Section */}
