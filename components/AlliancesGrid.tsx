@@ -23,6 +23,9 @@ export default function AlliancesGrid() {
     { id: 10, name: "YES Bank", image: "/yes.png" },
     { id: 11, name: "LIC", image: "/lic.png" },
     { id: 12, name: "HDFC", image: "/hdfc.png" },
+    { id: 13, name: "Alternative Investment Fund", image: "/alternative_investment_fund_at_uva_logo.jfif" },
+    { id: 14, name: "SEBI", image: "/sebi.png" },
+    { id: 15, name: "SME", image: "/sme.jpg" },
   ]
 
   return (
@@ -137,8 +140,8 @@ export default function AlliancesGrid() {
               </div>
             </div>
 
-            {/* Desktop Grid */}
-            <div className="hidden md:grid md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-6 md:gap-8 lg:gap-10">
+            {/* Desktop Grid - Using flexbox to center incomplete rows */}
+            <div className="hidden md:flex md:flex-wrap md:justify-center gap-6 md:gap-8 lg:gap-10">
           {partners.map((partner, index) => (
             <motion.div
               key={partner.id}
@@ -146,7 +149,7 @@ export default function AlliancesGrid() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: index * 0.1 }}
-              className="group"
+              className="group md:w-[calc((100%-2*1.5rem)/3)] lg:w-[calc((100%-3*2rem)/4)] xl:w-[calc((100%-5*2.5rem)/6)]"
             >
               <div className="relative aspect-[4/3] bg-gradient-to-br from-white via-background to-primary/5 rounded-2xl border-2 border-border/50 flex items-center justify-center p-2 md:p-3 transition-all duration-300 hover:shadow-2xl hover:border-primary/50 hover:scale-110 overflow-hidden group/card">
                 {/* Gradient accent bar - always visible but more prominent on hover */}

@@ -97,10 +97,10 @@ export default function AlliancesPage() {
                         rhomboidfinguru@gmail.com
                       </a>
                       <a
-                        href="mailto:shambhu.singh@rediffmail.com"
+                        href="mailto:info@rhomboidfinguru.com"
                         className="block text-sm sm:text-base md:text-lg text-muted-foreground hover:text-primary transition-colors"
                       >
-                        shambhu.singh@rediffmail.com
+                        info@rhomboidfinguru.com
                       </a>
                     </div>
                   </div>

@@ -132,7 +132,7 @@ export default function Header() {
                     : "text-foreground hover:text-primary"
                 )}
               >
-                Product
+                Services
                 <ChevronDown className="ml-1 h-4 w-4" />
               </button>
               {openDropdown === "product" && (
@@ -187,6 +187,38 @@ export default function Header() {
                           className="block px-6 py-2 text-sm text-foreground hover:bg-muted transition-colors"
                         >
                           Personal Loans
+                        </Link>
+                      </div>
+                    </div>
+                    {/* Advisory Submenu */}
+                    <div className="relative group/submenu">
+                      <div className="px-4 py-2 text-sm font-semibold text-foreground border-b border-border mt-1">
+                        Advisory
+                      </div>
+                      <div className="py-1">
+                        <Link
+                          href="/product/advisory/ipo-advisory"
+                          className="block px-6 py-2 text-sm text-foreground hover:bg-muted transition-colors"
+                        >
+                          IPO Advisory & Pre-IPO Support
+                        </Link>
+                        <Link
+                          href="/product/advisory/cibil-reconciliation"
+                          className="block px-6 py-2 text-sm text-foreground hover:bg-muted transition-colors"
+                        >
+                          CIBIL Reconciliation & Credit Profile Advisory
+                        </Link>
+                        <Link
+                          href="/product/advisory/recovery-resolution-advisory"
+                          className="block px-6 py-2 text-sm text-foreground hover:bg-muted transition-colors"
+                        >
+                          Recovery & Resolution Advisory for PSU Banks
+                        </Link>
+                        <Link
+                          href="/product/advisory/cgtmse-msme-credit-advisory"
+                          className="block px-6 py-2 text-sm text-foreground hover:bg-muted transition-colors"
+                        >
+                          CGTMSE & MSME Credit Advisory
                         </Link>
                       </div>
                     </div>
@@ -334,7 +366,7 @@ export default function Header() {
                   )}
                   onClick={() => toggleDropdown("product-mobile")}
                 >
-                  Product
+                  Services
                   <ChevronDown
                     className={cn(
                       "h-4 w-4 transition-transform",
@@ -460,6 +492,78 @@ export default function Header() {
                             onClick={() => setIsMobileMenuOpen(false)}
                           >
                             Personal Loans
+                          </Link>
+                        </div>
+                      )}
+                    </div>
+                    {/* Advisory Submenu */}
+                    <div>
+                      <button
+                        className={cn(
+                          "flex items-center justify-between w-full text-sm font-semibold transition-colors mb-1",
+                          shouldShowTransparent
+                            ? "text-white/90"
+                            : "text-foreground"
+                        )}
+                        onClick={() => toggleDropdown("advisory-mobile")}
+                      >
+                        Advisory
+                        <ChevronDown
+                          className={cn(
+                            "h-3 w-3 transition-transform",
+                            (openDropdown as string) === "advisory-mobile" && "rotate-180"
+                          )}
+                        />
+                      </button>
+                      {(openDropdown as string) === "advisory-mobile" && (
+                        <div className="pl-4 mt-1 space-y-1">
+                          <Link
+                            href="/product/advisory/ipo-advisory"
+                            className={cn(
+                              "block text-sm transition-colors",
+                              shouldShowTransparent
+                                ? "text-white/70 hover:text-accent"
+                                : "text-muted-foreground hover:text-primary"
+                            )}
+                            onClick={() => setIsMobileMenuOpen(false)}
+                          >
+                            IPO Advisory & Pre-IPO Support
+                          </Link>
+                          <Link
+                            href="/product/advisory/cibil-reconciliation"
+                            className={cn(
+                              "block text-sm transition-colors",
+                              shouldShowTransparent
+                                ? "text-white/70 hover:text-accent"
+                                : "text-muted-foreground hover:text-primary"
+                            )}
+                            onClick={() => setIsMobileMenuOpen(false)}
+                          >
+                            CIBIL Reconciliation & Credit Profile Advisory
+                          </Link>
+                          <Link
+                            href="/product/advisory/recovery-resolution-advisory"
+                            className={cn(
+                              "block text-sm transition-colors",
+                              shouldShowTransparent
+                                ? "text-white/70 hover:text-accent"
+                                : "text-muted-foreground hover:text-primary"
+                            )}
+                            onClick={() => setIsMobileMenuOpen(false)}
+                          >
+                            Recovery & Resolution Advisory for PSU Banks
+                          </Link>
+                          <Link
+                            href="/product/advisory/cgtmse-msme-credit-advisory"
+                            className={cn(
+                              "block text-sm transition-colors",
+                              shouldShowTransparent
+                                ? "text-white/70 hover:text-accent"
+                                : "text-muted-foreground hover:text-primary"
+                            )}
+                            onClick={() => setIsMobileMenuOpen(false)}
+                          >
+                            CGTMSE & MSME Credit Advisory
                           </Link>
                         </div>
                       )}
