@@ -21,7 +21,7 @@ export default function Footer() {
                   <MapPin className="h-5 w-5 text-accent" />
                 </div>
                 <p className="text-primary-foreground/90 text-sm leading-relaxed pt-1">
-                  Shambhu Singh, 510, AT By AGM Vijaylaxmi Venture, Plot 6/7,
+                  510, AT By AGM Vijaylaxmi Venture, Plot 6/7,
                   Mahal Industrial Estate, Mahakali Caves Road, Andheri East,
                   Mumbai 400093.
                 </p>
@@ -57,10 +57,10 @@ export default function Footer() {
                     rhomboidfinguru@gmail.com
                   </a>
                   <a
-                    href="mailto:shambhu.singh@rediffmail.com"
+                    href="mailto:info@rhomboidfinguru.com"
                     className="block hover:text-accent transition-colors"
                   >
-                    shambhu.singh@rediffmail.com
+                    info@rhomboidfinguru.com
                   </a>
                 </div>
               </div>
@@ -85,12 +85,12 @@ export default function Footer() {
             <div className="mb-6">
               <h3 className="text-2xl font-bold mb-4">About Rhomboid Finguru</h3>
               <p className="text-primary-foreground/80 text-sm leading-relaxed mb-4">
-                Your trusted partner for comprehensive financial solutions. We specialize in providing 
-                end-to-end loan consultancy and syndication services, connecting you with leading 
+                Your trusted partner for comprehensive financial solutions. We specialize in providing
+                end-to-end loan consultancy and syndication services, connecting you with leading
                 banks and financial institutions across India.
               </p>
               <p className="text-primary-foreground/80 text-sm leading-relaxed">
-                With expertise in secured and unsecured loans, we ensure fast deal conversions, 
+                With expertise in secured and unsecured loans, we ensure fast deal conversions,
                 competitive interest rates, and personalized financial guidance tailored to your needs.
               </p>
             </div>

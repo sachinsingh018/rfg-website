@@ -272,7 +272,7 @@ export default function AboutUsPage() {
                     <div className="flex-1">
                       <p className="text-foreground font-semibold mb-2 text-base">Address</p>
                       <p className="text-muted-foreground leading-relaxed text-sm">
-                        Shambhu Singh, 510, AT By AGM Vijaylaxmi Venture, Plot 6/7,
+                        510, AT By AGM Vijaylaxmi Venture, Plot 6/7,
                         Mahal Industrial Estate, Mahakali Caves Road, Andheri East,
                         Mumbai 400093.
                       </p>

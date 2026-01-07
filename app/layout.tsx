@@ -108,7 +108,7 @@ export default function RootLayout({
     address: {
       "@type": "PostalAddress",
       streetAddress:
-        "Shambhu Singh, 510, AT By AGM Vijaylaxmi Venture, Plot 6/7, Mahal Industrial Estate, Mahakali Caves Road, Andheri East",
+        "510, AT By AGM Vijaylaxmi Venture, Plot 6/7, Mahal Industrial Estate, Mahakali Caves Road, Andheri East",
       addressLocality: "Mumbai",
       postalCode: "400093",
       addressCountry: "IN",

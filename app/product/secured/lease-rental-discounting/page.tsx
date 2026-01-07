@@ -58,7 +58,7 @@ export default function LeaseRentalDiscountingPage() {
               <div className="flex items-start">
                 <MapPin className="h-4 w-4 md:h-5 md:w-5 mr-2 md:mr-3 mt-0.5 text-primary flex-shrink-0" />
                 <p className="text-sm sm:text-base md:text-base text-muted-foreground">
-                  Shambhu Singh, 510, AT By AGM Vijaylaxmi Venture, Plot 6/7,
+                  510, AT By AGM Vijaylaxmi Venture, Plot 6/7,
                   Mahal Industrial Estate, Mahakali Caves Road, Andheri East,
                   Mumbai 400093.
                 </p>

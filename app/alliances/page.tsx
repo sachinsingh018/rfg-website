@@ -55,7 +55,7 @@ export default function AlliancesPage() {
                   <div className="flex-1">
                     <p className="text-foreground font-semibold mb-1 text-base sm:text-lg md:text-xl">Address</p>
                     <p className="text-sm sm:text-base md:text-lg text-muted-foreground leading-relaxed">
-                      Shambhu Singh, 510, AT By AGM Vijaylaxmi Venture, Plot 6/7,
+                      510, AT By AGM Vijaylaxmi Venture, Plot 6/7,
                       Mahal Industrial Estate, Mahakali Caves Road, Andheri East,
                       Mumbai 400093.
                     </p>
