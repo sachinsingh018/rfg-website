@@ -73,21 +73,6 @@ export default function ManagementTeamPage() {
       isDirector: true,
     },
     {
-      name: "ROHIT JAISWAR",
-      title: "Credit & Product Strategy Expert",
-      image: "/rohit.png",
-      description: [
-        "Rohit Jaiswar brings strong expertise in credit evaluation, product mapping, and financial solution design. He works closely with clients to understand their exact requirements and aligns them with the most suitable lending products available across banks and NBFCs.",
-        "Having been part of Rhomboid Finguru's growth journey for over 6 years, Rohit has developed deep relationships with key lenders and an extensive understanding of product portfolios across the financial services landscape. His role goes beyond credit assessment—Rohit focuses on product finalization, pricing optimization, and structuring solutions that support the client's long-term financial health. His approach ensures that customers receive financing that is not just approved, but sustainable and strategically aligned. He has successfully mapped and delivered solutions for over 300 clients, consistently achieving optimal pricing and terms.",
-      ],
-      tenure: "6+ years with the firm",
-      achievements: [
-        "Delivered 300+ successful product mappings",
-        "Achieved average interest rate savings of 1.5-2% for clients",
-      ],
-      isDirector: true,
-    },
-    {
       name: "SAMIR PARAB",
       title: "Structured Retail Loans Lead",
       image: "/samir.jpg",
