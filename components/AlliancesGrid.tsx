@@ -23,7 +23,7 @@ export default function AlliancesGrid() {
     { id: 10, name: "YES Bank", image: "/yes.png" },
     { id: 11, name: "LIC", image: "/lic.png" },
     { id: 12, name: "HDFC", image: "/hdfc.png" },
-    { id: 13, name: "Alternative Investment Fund", image: "/alternative_investment_fund_at_uva_logo.jfif" },
+    { id: 13, name: "Alternative Investment Fund", image: "/alternative_investment_fund_at_uva_logo.jpg" },
     { id: 14, name: "SEBI", image: "/sebi.png" },
     { id: 15, name: "SME", image: "/sme.jpg" },
   ]
